@@ -1,0 +1,97 @@
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-header {
+    margin-right: 20px; /* Espaço entre o título e os links */
+  }
+  
+  .navbar-nav > li {
+    margin-right: 15px; /* Espaço entre os itens do menu */
+  }
+  
+  .navbar-form {
+    margin-left: auto; /* Move o formulário de busca para a extremidade direita */
+  }
+
+
+.principal{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: bolder;
+}
+.eucapa {
+  display: flex;
+  flex-direction: row;
+  border-radius: 90px;
+  height: 500px;
+}
+.escritas {
+  text-align: justify;
+  display: flex;
+  
+}
+.textoeimagem{
+  padding-left: 100px;
+}
+.textocapa {
+  padding-top: 15px;;
+  display: flex;
+  color: white;
+  padding-left: 50px;
+  width: 400px;
+  height: 480px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgb(238, 255, 8);
+}
+.botao {
+  background-color: rgb(238, 255, 3);
+  text-decoration: solid;
+}
+
+
+
+
+header {
+  position: relative; /* Para permitir o uso de uma camada sobreposta */
+  background-image: url("img_thumb/lua.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-name: slide;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+/* Camada de sobreposição */
+.teste2 {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo preto com 50% de opacidade */
+  z-index: 1; /* Fica atrás do texto */
+}
+
+/* Estilo do texto para aparecer sobre a camada escura */
+.teste {
+  position: relative;
+  z-index: 2; /* Fica acima da camada escura */
+  color: white; /* Para garantir que o texto seja visível */
+}
+
+@keyframes slide {
+  0% {background-image: url("img_thumb/lua.jpg");}
+  25% {background-image: url("img_thumb/lua.jpg");}
+  50% {background-image: url("img_thumb/lua.jpg");}
+  75% {background-image: url("img_thumb/lua.jpg");}
+  100% {background-image: url("img_thumb/lua.jpg");}
+}
+ .margem{
+  margin-top: 30px;
+ }

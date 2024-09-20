@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>Projetos</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="estiloprojeto.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+
+    </head>
+
+    <body>
+        <header>
+            <!-- place navbar here -->
+            <nav class="navbar navbar-expand-lg bg-black">
+                <div class="container-fluid">
+                  <a class="navbar-brand text-white" href="index.html">Guilherme C. Rocha</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Sobre mim
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <li><a class="dropdown-item" href="projetos.html">Projetos</a></li>
+                          <li><a class="dropdown-item" href="habilidades.html">Habilidades</a></li>
+                          <li><a class="dropdown-item" href="experiencia.html">Experiência</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="contato.html">Contato</a>
+                      </li>
+                    </ul>
+                    <form class="d-flex" action="/action_page.php">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
+                      <button class="btn btn-outline-light" type="submit">Submit</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+              <header class="bg-dark text-white text-center py-5">
+                <div class="container">
+                    <h1 class="principal"> Projetos </h1>
+                    
+                    <p class="lead">
+                        "Deus não joga dados com o universo"
+                    </p>
+                    <!-- btn-outline-light -->
+                    
+                </div>
+                    
+                
+            </header>
+        </header>
+        <main>
+            <div class="container primeirocarrossel">
+                <div class="row align-items-center">
+                    <!-- Coluna para o carrossel -->
+                    <div class="col-md-6 carrossel">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/placa desmontada.png" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/placa montada, modulo.png" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/sistema completo.png" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only botoes">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only botoes">Next</span>
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Coluna para o texto -->
+                    <div class="col-md-6">
+                        <h1 class="mb-4 text-center"> Meta 2023 </h1>
+                        <p class="lead">
+                            O projeto Meta (Mostra Específica de Trabalhos e Aplicações) é uma iniciativa do CEFET-MG que promove dias dedicados à apresentação de trabalhos desenvolvidos pelos alunos. Durante esse evento, os discentes têm a oportunidade de compartilhar inovações e soluções criativas para os desafios enfrentados no dia a dia, contribuindo para um ambiente acadêmico dinâmico e interativo.
+                        </p>
+                        <!-- Botão que abre o modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#saibaMaisModal">
+                            Descrição do projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal para "Saiba mais" -->
+            <div class="modal fade" id="saibaMaisModal" tabindex="-1" aria-labelledby="saibaMaisModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saibaMaisModalLabel"> Meta 2023 </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                O trabalho realizado por mim e meus colegas (disponível em: https://youtu.be/fPdJQOydWJI?si=mZiLMb4R2MoE1O4j) teve como objetivo desenvolver um limpador automático de placas solares. Estudos indicam que a eficiência das placas solares pode ser reduzida entre 10% e 30% devido à acumulação de sujeira em sua superfície. Para abordar esse desafio, criamos um modelo 3D que visa otimizar a limpeza e, consequentemente, melhorar o desempenho dos sistemas fotovoltaicos.                            </p>
+                            <h5>Habilidades desenvolvidas</h5>
+                            <ul>
+                                <li>Modelagem 3D (utilizando a plataforma Autodesk Inventor)</li>
+                                <li>Prototipagem de soluções inovadoras</li>
+                                <li>Liderança de equipe em projetos multidisciplinares</li>
+                                <li>Dimensionamento e modelagem de conjuntos mecânicos</li>
+                                <li>Desenho técnico e interpretação de plantas</li>
+                                <li>Desenvolvimento de sistemas automatizados</li>
+                                <li>Análise de desempenho de sistemas fotovoltaicos</li>
+                                <li>Integração de componentes eletrônicos e mecânicos</li>
+                                <li>Gerenciamento de projetos e cronogramas</li>
+                            </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="container segundocarrossel">
+                <div class="row align-items-center">
+                    <!-- Coluna para o carrossel -->
+                    <div class="col-md-6 carrossel">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+                            <div class="carousel-inner im2">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/Foto_Lab.-Fundição.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/novasuicafoto.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/cavaco.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only botoes">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only botoes">Next</span>
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Coluna para o texto -->
+                    <div class="col-md-6">
+                        <h1 class="mb-4 text-center">ENCIMAT</h1>
+                        <p class="lead">
+                            Encimat é o site do Departamento de Engenharia de Materiais do CEFET-MG, que oferece uma ampla gama de informações, desde conceitos básicos até dados específicos sobre diversos materiais. O portal serve como um recurso valioso para estudantes, pesquisadores e profissionais da área, promovendo o conhecimento e a disseminação de informações relevantes sobre engenharia de materiais.
+                        </p>
+                        <!-- Botão que abre o modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#saibaMaisModal2">
+                            Descrição do projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal para "Saiba mais" -->
+            <div class="modal fade" id="saibaMaisModal2" tabindex="-1" aria-labelledby="saibaMaisModal2Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saibaMaisModal2Label"> ENCIMAT </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Fui responsável pela produção de conteúdos especializados sobre metais, onde desenvolvi materiais informativos que abordam suas propriedades, aplicações e inovações na área. Meu trabalho envolveu pesquisa detalhada e a criação de recursos educativos, contribuindo para a disseminação de conhecimento e o fortalecimento da compreensão sobre este importante grupo de materiais.
+                            </p>
+                            <h5>Habilidades desenvolvidas</h5>
+                                <ul>
+                                    <li>Elaboração de conteúdos científicos e técnicos</li>
+                                    <li>Preparação de amostras para análise e testes</li>
+                                    <li>Trabalho em equipe em projetos colaborativos</li>
+                                    <li>Estudo de microestruturas metálicas</li>
+                                    <li>Pesquisa sobre propriedades e aplicações de metais</li>
+                                    <li>Interpretação de resultados de ensaios metalúrgicos</li>
+                                    <li>Utilização de ferramentas de análise e caracterização de materiais</li>
+                                    <li>Desenvolvimento de apresentações científicas</li>
+                                    <li>Gerenciamento de projetos de pesquisa</li>
+                                </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container segundocarrossel ">
+                <div class="row align-items-center">
+                    <!-- Coluna para o carrossel -->
+                    <div class="col-md-6 carrossel">
+                        <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+                            <div class="carousel-inner im2">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="img/programacao.jpg" alt="First slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/bdados.jpg" alt="Second slide">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="img/javascript.jpg" alt="Third slide">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only botoes">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only botoes">Next</span>
+                            </a>
+                        </div>
+                    </div>
+            
+                    <!-- Coluna para o texto -->
+                    <div class="col-md-6">
+                        <h1 class="mb-4 text-center">GITHUB</h1>
+                        <p class="lead">
+                            GitHub é uma plataforma que permite aos desenvolvedores armazenar e gerenciar código-fonte usando o sistema de controle de versão Git. Ela facilita a colaboração em projetos de programação, permitindo que várias pessoas trabalhem no mesmo código ao mesmo tempo. Com recursos como controle de versões, gerenciamento de problemas e revisão de código, o GitHub é uma ferramenta essencial para desenvolvedores e estudantes, ajudando no aprendizado e no compartilhamento de projetos.                        </p>
+                        <!-- Botão que abre o modal -->
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#saibaMaisModal3">
+                            Descrição do projeto
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal para "Saiba mais" -->
+            <div class="modal fade" id="saibaMaisModal3" tabindex="-1" aria-labelledby="saibaMaisModal3Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="saibaMaisModal3Label"> GITHUB </h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                Tenho um portfólio onde registro meus avanços na programação (https://github.com/devguic). Atualmente, possuo um conhecimento intermediário em JavaScript, CSS e Bootstrap. Além disso, também tenho experiência em bancos de dados, desenvolvendo essas habilidades no SENAI-MG.                            
+                            </p>
+                                
+                                <h5>Habilidades Desenvolvidas</h5>
+                                <ul>
+                                    <li>Java</li>
+                                    <li>JavaScript</li>
+                                    <li>Excel</li>
+                                    <li>PowerPoint</li>
+                                    <li>Word</li>
+                                    <li>Formatação ABNT</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+                                    <li>HTML</li>
+                                    <li>JSON</li>
+                                    <li>Bancos de dados (SQL)</li>
+                                    <li>Manipulação de dados</li>
+                                </ul>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="bg-body-secondary text-center py-4 espaco">
+                <div class="container">
+                    <h1> Vamos conversar? </h1>
+                    <p class="lead">
+                        Entre em contato para discutir qualquer questão ou ideia.
+                    </p>
+                    <!-- btn-outline-light -->
+                    <a href="contato.html" class="btn btn-lg botao"> Entre em contato </a>
+                </div>
+    
+            </section>
+
+        </main>
+        <footer class="py-4 bg-dark text-white text-center">
+            <!-- place footer here -->
+            <div class="container">
+                <p>
+                    &copy; 2024 Guilherme Cunha Rocha. Todos os direitos reservados.
+                </p>
+               
+                <div class="social-icons mt-3">
+                    <a href="https://www.instagram.com/_guii_c/" class="text-white me-3"> <i class="bi bi-instagram"></i></a>
+                    <a href="https://github.com/devguic" class="text-white me-3"> <i class="bi bi-github"></i></a>
+                    <a href="https://www.linkedin.com/in/guilherme-rocha-206448221/" class="text-white me-3"> <i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="text-white me-3"> <i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

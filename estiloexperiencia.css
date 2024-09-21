@@ -1,4 +1,7 @@
-
+.body {
+  display: flex;
+  flex-direction: column;
+}
 .navbar-nav {
     display: flex;
     align-items: center;
